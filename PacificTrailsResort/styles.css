@@ -1,55 +1,135 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: #90C7E3;
+    background: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    justify-content: center;
+    font-family: Verdana, Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
 }
 
-nav {
-    background-color: #333;
-    padding: 10px 0;
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 960px;
+    max-width: 2048px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nav-links {
+#wrapper {
+    background-color: #FFFFFF !important; 
+}
+
+header {
+    background-color: #002171;
+    color: #FFFFFF;
+    background-image: url('/PacificTrailsResort/pacific4/sunset.jpg');
+    background-position: right; 
+    background-repeat: no-repeat; 
+    height: 72px; 
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+
+h2 {
+    color: #1976D2;
+    font-family: sans-serif, Arial;
+}
+
+dt {
+    color: #002171;
+    font-weight: bold;
+}
+
+#section1 {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+.resort {
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+.nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0.5em;
     display: flex;
     justify-content: space-around;
-}
-
-.nav-links li {
-    display: inline;
+    text-align: center;
 }
 
 .main-content {
-    font-family: Arial, sans-serif;
     margin: 20px;
     margin-bottom: 20px;
     line-height: 0.5;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: block;
 }
 
 .address-content {
-    font-family: Arial, sans-serif;
     margin: 20px;
     margin-bottom: 20px;
     line-height: 1.0;
 }
 
-.nav-links a {
-    color: white;
+.nav a {
+    color: rgb(9, 5, 61);
     text-decoration: none;
     padding: 10px 20px;
     display: block;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
 }
 
-.nav-links a:hover {
-    background-color: #575757;
+.mail-to {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.mail-to:hover {
+    color: #002171;
+    text-decoration: underline;
 }
 
 footer {
-    font-size: 0.8em; /* Adjust the value as needed */
-    background-color: #575757;
-    color:#f8f6f6;
-    padding: 20px;
+    font-size: 0.70em;
+    font-style: italic;
+    color: #000000;
+    padding: 1em;
     text-align: center;
+}
+
+#homehero, #yurthero, #trailhero {
+    height: 300px;
+    background-size: 100% 100%;
+  }
+
+#homehero {
+    background-image: url('/PacificTrailsResort/pacific4/coast.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+#yurthero {
+    background-image: url('/PacificTrailsResort/pacific4/yurt.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+#trailhero {
+    background-image: url('/PacificTrailsResort/pacific4/trail.jpg');
+    background-size: cover; 
+    background-position: center; 
 }

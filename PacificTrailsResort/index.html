@@ -10,24 +10,28 @@
 </head>
 <body>
     <!-- Main header of the page -->
-    <header>
+    <div id="wrapper">
+    <header class="container">
         <h1>Pacific Trails Resort</h1> <!-- h1 Header element -->
-            <nav> <!-- Nav element with bold text -->
-                <ul class="nav-links">
-                    <li><a href="index.html"><b>Home</b></a></li>
-                    <li><a href="yurts.html"><b>Yurts</b></a></li>
-                    <li><a href="activities.html"><b>Activites</b></a></li>
-                    <li><a href="reservations.html"><b>Reservations</b></a></li>
-                </ul>
-            </nav>
     </header>
-
+    <nav> <!-- Nav element with bold text -->
+        <ul class="nav">
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="yurts.html"><b>Yurts</b></a></li>
+            <li><a href="activities.html"><b>Activites</b></a></li>
+            <li><a href="reservations.html"><b>Reservations</b></a></li>
+        </ul>
+    </nav>
+    <div id="homehero">
+        <!-- coast.jpg image will be displayed as the background of this div -->
+    </div>
 <!-- Main element content -->
-<main>
+<main class="container">
     <section id="section1">
+        <div>
         <h2>Enjoy Nature in Luxury</h2> <!--  text within an h2 element -->
         <div class="main-content"> <!-- Sentences in a paragraph -->
-            <p>Pacific Trails Resort on the California North Coast offers panoramic views of the Pacific Ocean.</p>
+            <p><span class="resort">Pacific Trails Resort</span> on the California North Coast offers panoramic views of the Pacific Ocean.</p>
             <p>Our guests experience an opulent camping adventure in sumptuously appointed private yurts featuring a gas fireplace,</p> 
             <p>king-size bed, and private deck.</p>
         </div>
@@ -39,19 +43,20 @@
                 <li>Savor nightly fine dining with an ocean view</li>
             </ul>
             <div class="address-content"> <!-- Contact information within a div element -->
-                <p>Pacific Trails Resort</p>
+                <p><span class ="resort">Pacific Trails Resort</span></p>
                 <p>12010 Pacific Trails Road</p>
                 <p>Zephyr, CA 95555</p>
                 <p>888-555-5555</p>
             </div>
-
+        </div>
     </section>
 </main>
 
 <!-- Footer of the page copyright and e-mail-->
-<footer>
-    <p><i>Copyright &copy; 2024 Pacific Trails Resort</i></p>
-    <p><i>aleksey@kurdyukov.com</i></p>
+<footer class="container">
+    <p>Copyright &copy; 2024 Pacific Trails Resort</p>
+    <a href= "mailto:aleksey@kurdyukov.com" class="mail-to">aleksey@kurdyukov.com</a>
 </footer>
+</div>
 </body>
 </html>

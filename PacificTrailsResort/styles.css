@@ -1,47 +1,47 @@
-body {
-    background-color: #90C7E3;
-    background: linear-gradient(to bottom, #FFFFFF, #90C7E3);
-    justify-content: center;
-    font-family: Verdana, Arial, sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    font-family: Georgia, serif;
+    min-height: 100%;
     width: 80%;
     margin: 0 auto;
 }
 
 #wrapper {
     width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     min-width: 960px;
-    max-width: 2048px; 
+    max-width: 2048px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#wrapper {
-    background-color: #FFFFFF !important; 
+    background-color: #FFFFFF !important;
 }
 
 header {
     background-color: #002171;
     color: #FFFFFF;
     background-image: url('/PacificTrailsResort/pacific4/sunset.jpg');
-    background-position: right; 
-    background-repeat: no-repeat; 
-    height: 72px; 
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 72px;
 }
-
 
 h1 {
     text-align: center;
     padding-top: 0.5em;
 }
 
-
 h2 {
     color: #1976D2;
-    font-family: sans-serif, Arial;
+    font-family: Georgia, serif;
 }
 
 dt {
@@ -50,7 +50,7 @@ dt {
 }
 
 #section1 {
-    padding: 20px; /* Adjust the padding as needed */
+    padding: 20px;
 }
 
 .resort {
@@ -67,30 +67,23 @@ dt {
     text-align: center;
 }
 
-.main-content {
+.main-content, .address-content {
     margin: 20px;
     margin-bottom: 20px;
+    line-height: 1.0;
+}
+
+.main-content {
     line-height: 0.5;
     padding-left: 2em;
     padding-right: 2em;
     display: block;
 }
 
-.address-content {
-    margin: 20px;
-    margin-bottom: 20px;
-    line-height: 1.0;
-}
-
 .nav a {
     color: rgb(9, 5, 61);
     text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    text-decoration: none;
+    padding: 0.5em 20px;
 }
 
 .mail-to {
@@ -113,23 +106,18 @@ footer {
 
 #homehero, #yurthero, #trailhero {
     height: 300px;
-    background-size: 100% 100%;
-  }
+    background-size: cover;
+    background-position: center;
+}
 
 #homehero {
     background-image: url('/PacificTrailsResort/pacific4/coast.jpg');
-    background-size: cover; 
-    background-position: center;
 }
 
 #yurthero {
     background-image: url('/PacificTrailsResort/pacific4/yurt.jpg');
-    background-size: cover; 
-    background-position: center;
 }
 
 #trailhero {
     background-image: url('/PacificTrailsResort/pacific4/trail.jpg');
-    background-size: cover; 
-    background-position: center; 
 }

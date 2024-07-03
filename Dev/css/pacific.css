@@ -170,17 +170,25 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  /* Styles for screens 1024px and wider */
+
+  /* Styles for the body element selector */
   body {
     background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+    /* Additional body styles as needed */
   }
 
+  /* Styles for the nav ul selector */
   nav ul {
     padding-right: 10%;
     padding-left: 10%;
+    /* Additional nav ul styles */
   }
 
+  /* Styles for the #wrapper id selector */
   #wrapper {
     width: 80%;
     margin: auto; /* Horizontally centering the wrapper */
+    /* Additional #wrapper styles */
   }
 }
